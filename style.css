@@ -1,0 +1,266 @@
+@font-face {
+	font-family: "SpoqaHanSans";
+	src: url("font/Spoqa Han Sans Bold.ttf") format('truetype');
+}
+
+html {
+    font-size:14px;
+    	font-family: 'SpoqaHanSans', '굴림', '궁서', '바탕체';
+}
+
+
+h1{
+    color:blue;
+}
+
+a{
+    text-decoration: none;
+}
+.logo-container{
+    height:35px!important;
+}
+
+.logo{
+    height:30px;
+    margin-bottom: 20px;
+}
+.logo-container h1{
+    line-height:40px;
+}
+/*back-block*/
+.back-block {
+    height: 60px;
+}
+/*banner*/
+.bg {
+    /*height: 90vh;*/
+    width: 100%;
+}
+
+.bg img {
+    height: 90vh;
+    width: 100%;
+}
+/*가맹,푸드리스트*/
+/*.food-list{*/
+/*    margin-top: 100px;*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+
+/*.gamaeng{*/
+/*    margin-top: 100px;*/
+/*    padding-top: 9%;*/
+/*    padding-bottom: 9%;*/
+/*    margin-bottom: 5%;*/
+   
+/*    background-repeat: no-repeat;*/
+/*    background-size:cover;*/
+/*}*/
+/*.gamaeng-img{*/
+/*  margin-left: 4%;*/
+/*}*/
+
+
+
+/*card*/
+
+.bgkcolor {
+    background-color: #f7f7f7;
+}
+
+.xypadding {
+    padding: .75rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    float: left;
+    width: 33.33%;
+    padding: 1rem;
+    border: 0;
+}
+
+.card > p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.card >a> img {
+    width: 100%;
+    height: 280px;
+}
+
+
+.map-container{
+	margin-top:10px;
+	position:relative;
+	width:50%; 
+	height:0;
+	padding-bottom:40.25%;
+	float: left;
+}
+
+.map-container iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	border-radius: 10px;
+}
+
+.way-text{
+    float:right;
+    width:50%;
+}
+
+.way-text img{
+    height:477px;
+}
+
+.footer{
+    width:100%;
+    text-align:center;
+    background-color:#1d1d1d;
+    color:#fff;
+}
+
+#LIST{
+    margin-top:10px;
+    display:block;
+}
+
+/*footer*/
+.footer-container{
+    width:90%;
+}
+.footer-text{
+    width:100%;
+    margin-bottom: 0px;
+}
+/*미디어 스크린*/
+
+@media (max-width: 575px) {
+    .card{
+        width: 100%;
+    }
+    .bg img {
+        height: 60vh;
+        margin-top:50px;
+    }
+    .img-fluid {
+        height:150px;
+    }
+    .footer-text{
+        font-size:0.9rem;
+    }
+    .way-text{
+    width:100%;
+}
+    .way-text img{
+    height:477px;
+    width:100%;
+}
+
+.map-container{
+	margin-top:10px;
+	position:relative;
+	width:100%; 
+	height:0;
+	padding-bottom:40.25%;
+	float: left;
+}
+.footer-text{
+        font-size:0.9rem;
+    }
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .card{
+        width: 100%;
+    }
+    .bgk-img img {
+        height: 60vh;
+    }
+    /*.img-fluid {*/
+    /*    max-width: 100%;*/
+    /*}*/
+    .way-text{
+    width:100%;
+}
+    .way-text img{
+    height:477px;
+    width:100%;
+}
+
+.map-container{
+	margin-top:10px;
+	position:relative;
+	width:100%; 
+	height:0;
+	padding-bottom:40.25%;
+	float: left;
+}
+.footer-text{
+        font-size:0.9rem;
+    }
+}
+.way-container{
+    margin-top: 100px;
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card{
+        width: 50%;
+    }
+    .bg img {
+        height: 70vh;
+        margin-top:50px;
+    }
+    .img-fluid {
+        height: 400px;
+    }
+    .way-text{
+    width:100%;
+}
+    .way-text img{
+    height:477px;
+    width:100%;
+}
+
+.map-container{
+	margin-top:10px;
+	position:relative;
+	width:100%; 
+	height:0;
+	padding-bottom:40.25%;
+	float: left;
+}
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card{
+        width: 50%;
+    }
+    .bg img {
+        height: 80vh;
+        margin-top:50px;
+    }
+}
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
